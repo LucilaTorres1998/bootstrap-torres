@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth; 
+}
+
+
+body{
+  background-color: #5f5f5f;
+}
+
+nav, .navbar-brand{
+  flex: 1 0 50px; 
+  color: rgba(255, 255, 255, 0.747); 
+  font-size: 20px ;
+  padding: 10px;
+}
+
+/* hero */
+
+.padre1{
+  display: grid; 
+  place-items: center; 
+  height: 100vh; 
+  background-image:url(./multimedia/buenos-aires-argentina-mejores-fotos-instagram.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;  
+
+}
+
+.hijo1 h2 {
+  margin-top: 50px; 
+  text-align: center;
+  font-family: 'Chela One', cursive;
+  font-size: 60px;
+letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.747); 
+}
+
+.hijo1 p {
+  font-family: 'Roboto', sans-serif;
+   font-size: 25px; 
+   color: rgba(255, 255, 255, 0.747); 
+
+}
+
+
+/* destinos */
+  .instrucciones{
+    background-color: #e4e4e4;
+  }
+
+  .instrucciones .carta {
+    background-color: #f07b1ca1; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 1rem;  
+    text-align: center; 
+    margin: 20px;
+  }
+  
+  .carta img{
+   width: 80%;
+   margin-top: 15px;  
+  }
+
+  .instrucciones h3{
+    color: rgba(255, 255, 255, 0.747); 
+    padding-bottom: 1px;
+  }
+
+.instrucciones p{
+    color: rgba(255, 255, 255, 0.747); 
+    padding-bottom: 1px;
+    font-size: 18px;
+  }
+
+
+/* destinos */
+.servicios{
+  background-image: url(./multimedia/puerto-madero-noche3.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding: 30px;
+}
+
+.servicios h2 {
+  font-family: 'Chela One', cursive;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.747); 
+  font-size: 48px;
+  padding: 15px 10px; 
+}
+
+.servicios .carta {
+background-color: rgba(199, 187, 209, 0.438);; 
+padding: 1rem; 
+margin: 5px;
+text-align: center; 
+border-radius: 5px;
+}
+
+.carta img{
+width: 100%;
+height: 250px;
+margin-top: 1px; 
+border-radius: 5px; 
+}
+
+.servicios h3{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.747); 
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.servicios p{
+  color: rgba(255, 255, 255, 0.747); 
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.servicios .btn{
+  color: rgba(255, 255, 255, 0.747); 
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+/* footer */
+
+.footer{
+  background: #F37335;
+  width: 100%;
+  color: #353232;
+}
+
+
+.container-body{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(199, 187, 209);;
+}
+
+.container-body h2{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  width: 100%;
+  padding: 5px;
+  color: black       
+  
+}
+
+.seguinos img{
+  cursor: pointer;
+  size: 20px;
+}
+
+.container-footer{
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #353232;
+  color:black 
+}
+
+
+/* INFORMACIÓN */
+
+/* -nros- */
+.informacion{
+  background-color: #e4e4e4;
+}
+
+
+.informacion .carta{
+  margin-top: 90px;
+}
+
+.informacion img{
+  margin-top: 50px;
+  height: 300px;
+}
+
+.informacion h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: rgb(177, 137, 209);       
+}
+
+.informacion li{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(177, 137, 209);
+  font-size: 18px;
+}
+
+/* -clima- */
+.clima{
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.clima h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  width: 100%;
+  padding: 5px;
+  color: #ec8937; 
+}
+
+.clima li{
+  font-family: 'Roboto', sans-serif;
+  color: #ec8937;
+  padding-bottom: 10px; 
+  font-size: 18px;
+}
+
+.clima img{
+  height: 400px;
+}
+
+/* -rarezas- */
+.rarezas{
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.rarezas img{
+  height: 300px;
+}
+
+.rarezas h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: rgb(177, 137, 209);       
+}
+
+.rarezas li{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(177, 137, 209);
+  font-size: 18px;
+}
+
+.rarezas h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: rgb(177, 137, 209);       
+}
+
+
+/* -estaciones- */
+.estaciones{
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.estaciones img{
+  height: 300px;
+}
+
+.estaciones h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: #ec8937;       
+}
+
+.estaciones li{
+  font-family: 'Roboto', sans-serif;
+  color: #ec8937;
+  font-size: 18px;
+}
+
+/* -sube- */
+
+.sube{
+  padding-top: 50px;
+  background-color: #e4e4e4;
+}
+
+.sube img{
+  height: 300px;
+}
+
+.sube h3{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  font-weight: 600px;
+  margin-top: 50px;
+  width: 100%;
+  padding: 5px;
+  color: rgb(177, 137, 209);        
+}
+
+.sube p{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(177, 137, 209);  
+  font-size: 18px;
+}
+
+/* CONTACTO */
+
+/* form */
+.contacto{
+  background-color:  rgb(192, 184, 199);
+  padding: 20px;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: #ee8a38;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  margin: 0%;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3{
+  color: white;
+  margin: 0%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: none;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton{
+  background-color: #ba7bd3;
+  border: none;
+  padding: 10px;
+
+}
+
+#boton:hover{
+  cursor: pointer;
+}
+
+/* DESTINOS PAG */
+
+.textos{
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: #e4e4e4;
+}
+
+.textos h3{
+  text-align: center;
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+  color: #ee8a38;        
+}
